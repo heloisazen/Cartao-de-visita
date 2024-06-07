@@ -1,0 +1,41 @@
+body {
+  background: url('https://i.pinimg.com/originals/c5/e4/b5/c5e4b54952c6857bf00a02929abffe51.gif')  no-repeat center scroll;
+  color:#F0F8FF;
+  font-family: tahoma;
+  height: 100vh;
+  background-size: cover;
+}
+
+.card {
+  width: 600px;
+  text-align: center;
+  padding: 32px;
+  background: linear-gradient(#0003,#0003);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(4px)
+}
+
+.perfil img {
+  border-radius: 50%;
+  width: 150px;
+  box-shadow: 0 0 5px #7B68EE;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 32px;
+  
+}
+
+.redes a {
+  color: #6A5ACD;
+  text-decoration: none;
+  padding: 8px;
+  border: 1px solid black;
+  background: linear-gradient(#0009,#0009)
+}
