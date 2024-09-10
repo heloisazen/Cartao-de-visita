@@ -25,7 +25,7 @@ body {
   }
 
   .perfil h1, p{
-    color:#F0F8FF;
+    color: white;
   }
   
   .redes {
@@ -45,5 +45,5 @@ body {
   }
 
   .bio p{
-    color:#F0F8FF;
+    color: white;
   }
